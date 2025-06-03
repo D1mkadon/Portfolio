@@ -1,0 +1,26 @@
+
+@import "tailwindcss";
+@config "../tailwind.config.js";
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+
+@layer base {
+  .text-edge-outline {
+    -webkit-text-stroke: 1px rgba(255,255,255,0.3);
+  }
+} 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+  }
+}
+
+body {
+  background: var(--background);
+}
+.dur{
+   transition-duration: 1000ms;
+}

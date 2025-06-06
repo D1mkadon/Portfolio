@@ -1,5 +1,6 @@
+import Icon, { Item } from '@/icons/icon';
 import React from 'react'
-import Icon, { Item } from '../icons/icon';
+
 
 
 

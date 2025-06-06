@@ -2,7 +2,7 @@ import React from "react";
 import { iconDefs } from "./index";
 
 type IconType = keyof typeof iconDefs;
-export type Item = {
+export interface Item {
   title: string;
   icon: IconType;
   description: string;

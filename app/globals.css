@@ -1,9 +1,17 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;600;700&family=Roboto+Mono:ital,wght@0,400;0,700;1,400&display=swap");
 @import "tailwindcss";
 @config "../tailwind.config.js";
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+   font-family: Outfit, serif;
+}
+html,
+body,
+#__next {
+  scroll-behavior: smooth !important;
 }
 
 
@@ -20,6 +28,7 @@
 
 body {
   background: var(--background);
+ 
 }
 .dur{
    transition-duration: 1000ms;

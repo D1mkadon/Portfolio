@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Dmytro Tarasenko",
-
+   
 };
 
 export default function RootLayout({

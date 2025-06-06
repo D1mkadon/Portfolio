@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import Particles from '../Components/particles'
 import Link from 'next/link'
@@ -5,8 +6,10 @@ import Link from 'next/link'
 
 
 const Main = () => {
+
     return (
-        <>    <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+        <div className='min-w-screen min-h-screen overflow-hidden flex justify-center items-center flex-col'>
+            <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
             <Particles
                 className="absolute inset-0 -z-10 animate-fade-in"
                 quantity={100}
@@ -27,7 +30,7 @@ const Main = () => {
                         github
                     </Link>
                 </h2>
-            </div></>
+            </div></div>
     )
 }
 

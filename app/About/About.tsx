@@ -1,5 +1,9 @@
+'use client'
 import Icon, { Item } from '@/icons/icon';
 import React from 'react'
+import ProfileCard from './ProfileCard';
+
+
 
 
 
@@ -49,8 +53,19 @@ const About = () => {
                             )}
                         </p>
                     </div>}
-
                 </div>))}
+                <ProfileCard
+                    name="Dmytro Tarasenko"
+                    title="Software Engineer"
+                    handle="Dmytro Tarasenko"
+                    status="online"
+                    contactText="Contact Me"
+                    avatarUrl="/2.jpg"
+                    iconUrl=" "
+                    showUserInfo={true}
+                    enableTilt={true}
+                    onContactClick={() => console.log('Contact clicked')}
+                />
             </div>
         </div>
     )
